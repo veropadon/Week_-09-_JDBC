@@ -30,4 +30,5 @@ User Input: Incorporate a scanner to capture user inputs directly from the conso
 BigDecimal Mastery: Dive deep into working with BigDecimal objects, a fundamental skill when dealing with precise numeric values.
 JDBC Resource Management: Understand and implement the best practices when handling JDBC resources like Connections and PreparedStatements. It's crucial to ensure these resources are closed aptly to prevent memory leaks.
 Database Interactions: Harness JDBC to introduce a Project object into the project table.
+
 Dive in, and good luck with your DIY Project Database Application!

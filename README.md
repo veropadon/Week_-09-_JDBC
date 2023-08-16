@@ -1,36 +1,33 @@
-# Week-_8-_-MySQL-
+DIY Project Database Application
 
-Projects Database
-This project aims to create a CRUD (Create, Read, Update, and Delete) application interfacing with a MySQL database. This application uses Java Database Connectivity (JDBC) API to connect to the MySQL database. The database tables are diagrammed using Draw.io to create an Entity-Relationship Diagram (ERD). SQL statements are written to create the necessary tables for the project, and a MySQL client (DBeaver) is utilized to actualize these tables.
+Background
+Welcome to the DIY Project Database Application! In this project, you'll be immersing yourself in the development of an application designed to perform CRUD (Create, Read, Update, and Delete) operations on a MySQL database.
 
+What it does?
+The application allows users to interact with a DIY Project database, shedding light on many SQL and JDBC intricacies. By the end of this journey, you'll be equipped with the skills required to manage databases in a real-world scenario.
+
+What you've accomplished so far:
+Successfully connected to a MySQL database using JDBC.
+Diagrammed the project tables using Draw.io.
+Authored the CREATE TABLE SQL statements for five distinct tables.
+Established these tables in DBeaver.
+This week's focus:
+For this week, you'll be building the core of the application—a menu-driven interface. By focusing on best practices, you will:
+
+Develop a robust menu to facilitate user operations.
+Handle unexpected issues with proper exception management.
+Integrate functionalities to enrich project tables with relevant details.
+Upcoming Features:
+In the ensuing sessions, anticipate working on:
+
+Retrieving details from isolated tables and amalgamated ones.
+Implementing functionalities to modify and erase table entries.
 Objectives
-In this project, you will:
+During this exercise series, your aims are to:
 
-Create an Entity-Relationship Diagram (ERD) in Draw.io with entities and relationship lines.
-Understand crows' foot notation and apply that knowledge in an Entity Relationship Diagram.
-Apply your knowledge of DROP TABLE and CREATE TABLE statements to create tables using a MySQL client (DBeaver).
-The exercises below guide you through this process. Note the icon: make sure to include this functionality in your video showcase.
-
-Exercises
-The project comprises five tables: project, material, step, category, and project_category.
-
-Detailed information on each table, such as column definitions, data type, and whether or not the field is nullable, can be found in the project specification.
-
-Entity-Relationship Diagram
-The ERD will contain the five table entities and show the relationships between the tables. The ERD should be saved and uploaded to your GitHub repository for Week 2.
-
-Steps to create the ERD:
-
-Follow the instructions in the Week 2 Installation Instructions to download Draw.io or use the online tool.
-In Draw.io, create a new drawing and expand "Entity Relation" in the tool palette on the left.
-Use Draw.io to create an Entity-Relationship Diagram.
-Project Schema
-You will create a new file and write DROP TABLE and CREATE TABLE SQL statements for the five tables in the DIY Projects schema. The statements will be run in DBeaver, creating the tables.
-
-Steps to create the schema:
-
-In the mysql-java project in Eclipse, create a file named "projects-schema.sql" in the src/main/resources directory.
-Add DROP TABLE statements at the top of the file to drop the tables in the correct order.
-Write the CREATE TABLE statements.
-Paste the SQL into the DBeaver SQL editor. Run all DROP TABLE and CREATE TABLE statements.
-After finishing these steps, push your project to GitHub.
+Menu-Driven Application: Master the development of a menu-driven application, ensuring errors are managed seamlessly.
+User Input: Incorporate a scanner to capture user inputs directly from the console.
+BigDecimal Mastery: Dive deep into working with BigDecimal objects, a fundamental skill when dealing with precise numeric values.
+JDBC Resource Management: Understand and implement the best practices when handling JDBC resources like Connections and PreparedStatements. It's crucial to ensure these resources are closed aptly to prevent memory leaks.
+Database Interactions: Harness JDBC to introduce a Project object into the project table.
+Dive in, and good luck with your DIY Project Database Application!
